@@ -1,0 +1,515 @@
+body {
+	background-color: #FFFFFF;
+	margin: 1% 5% 5% 2%;
+	vertical-align: top;
+}
+
+p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	background-color: transparent;
+	margin-top: 0.2em;
+	margin-left: 1%;
+}
+
+hr {
+	color: #FFCC33;
+	text-align: left;
+	margin-left: 1%;
+	margin-right: 2%;
+	background-color: #FFFFFF;
+}
+/* USE THIS ONLY FOR PAGE BRANDING  ROYAL BLUE - 0000cc */
+.title {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 1%;
+}
+
+/* LEVEL 1 HEADING with LETTER SPACING, PALE  YELLOW BGRND ffcccc */
+/*  USE ONLY FOR PAGE HEADING  ROYAL BLUE - #0000cc */
+h1 {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #0000CC;
+	background-color: #FFFFCC;
+	font-size: 1.5em;#009900#a5ebb7
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin-left: 1%;
+}
+/* COMMENTED OUT 10 AUG 2007 IN FAVOUR OF SANS-SERIF FONT */
+/*  font-family: "Monotype Corsiva", "Comic Sans MS", cursive;*/
+/*	color: #0000CC;*/
+/*	font-size: 1.8em;*/
+/*	font-weight: bold;*/
+/*	text-align: left;*/
+/*	margin-left: 1%;	*/
+/* NOT USED. COULDN'T GET TO WORK. KEEP CODE FOR LATER */
+
+.shadow {
+	font-family: "Monotype Corsiva", "Comic Sans MS", cursive;
+	color: #CCCCCC;
+	background-color: transparent;
+	font-size: 100%;
+	font-weight: lighter;
+	text-align: left;
+	margin-left: 0;
+	position: absolute;
+	top: -5px;
+	left: -10px;
+	z-index: 1;
+}
+
+/* H2 for majority of headings below page heading */
+h2 {
+	font-family: Arial, Tahoma, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 1%;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+}
+
+/* H3 for sub-headings under H2s */
+h3 {
+	font-family: Verdana, Arial, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 1.0em;
+	margin-bottom: 0;
+	margin-left: 1%;
+	padding-top: 0.5em;
+	padding-bottom: 0;
+}
+
+/* H4 for sub-headings under H3s */
+h4 {
+	font-family: Arial, Verdana, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	margin-left: 1%;
+	padding-bottom: 0;
+}
+
+/* BYLINE for identifying articles by writer */
+.byline {
+	font-family: Arial, Verdana, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	margin-left: 1%;
+	padding-top: 0;
+	padding-bottom: 0.5em;
+}
+
+/* HOUSEKEEPING TEXT STYLE */
+p.blue {
+	color: #6699ff;
+	font-style: italic;
+}
+
+/* LINK STYLES */
+a:link  {
+	text-decoration: underline;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #0000CC;
+	background-color: #FFFFFF;
+}
+
+a.footer:link {
+	text-decoration: none;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFCC;
+}
+
+a:active {
+	text-decoration: none;
+	font-weight: 200;
+	color: #FFCC33;
+	background-color: #FFFFFF;
+}
+
+a.footer:active {
+	text-decoration: none;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+a:visited {
+	text-decoration: underline;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #990066;
+	background-color: #FFFFFF;
+}
+
+a.footer:visited {
+	text-decoration: none;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #663300;
+	background-color: #FFFFCC;
+}
+
+/* LINKS IN NAVIGATION PANEL AT LEFT OF SCREEN */
+p.navlinks {
+	font-size: 80%;
+	line-height: 200%;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #FFFFCC;
+}
+
+/* INDENTED LINKS  TO  IN-PAGE CONTENT */
+div.sublinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 1.5em;
+	margin-left: 5%;
+	background-color: transparent;
+}
+
+/* STYLE FOR This-Page LINK ON CURRENT PAGE */
+.current {
+	background-color: transparent;
+	color: #666666;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* TO CENTRE CONTENT  */
+div.center {
+	text-align: center;
+}
+
+/* LAYOUT TABLE WITH BLUE TOP & LEFT BORDER */
+/* FOR FRAMING CONTENT PAGES  */
+table.subpage {
+	width: 100%;
+	border-left: thin solid #0000CC;
+	border-top: thin solid #0000CC;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/* LAYOUT TABLE ... */
+td.rightborder {
+	width: 150px;
+	border-right: 10px solid #FFCC33;
+	border-bottom: 2px solid #FFCC33;
+	vertical-align: top;
+	text-align: center;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/* NAVIGATION CELL WITH PALE YELLOW BACKGROUND */
+/* CHANGED TO LIGHT BLUE - #ffffcc - TO TEST */
+td.navpanel {
+	width: 175px;
+	height: 100%;
+	border-right: 10px solid #FFCC33;
+	border-bottom: 2px solid #FFCC33;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 3%;
+	background-color: #FFFFCC;
+}
+
+/* CELL WITH ACTERA BANNER */
+td.banner {
+	border-bottom: 2px solid #FFCC33;
+	vertical-align: middle;
+	text-align: left;
+}
+
+/* CELL FOR PAGE CONTENT */
+td.content {
+	border-bottom: 2px solid #FFCC33;
+	padding-bottom: 2%;
+	vertical-align: top;
+	text-align: left;
+}
+li {
+	font-family: Verdana, Arial, sans serif;
+	font-size: 90%;
+	color:	#000000;
+	background-color: #FFFFFF;
+	margin-left: 1%;
+}
+
+/* COPYRIGHT STATEMENT FORMAT */
+p.copyright {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+}
+
+/* CENTRED BOX FOR HIGHLIGHTING INFORMATION e.g. Next Ride Date */
+.box {
+	border-width: 1px;
+	border-style: groove;
+	border-color: #FFCC33;
+	font-size: 1.2em;
+	color: #663300;
+	background-color: #FFFFCC;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	line-height: 1.4em;
+}
+
+/* LEFT-JUSTIFIED BOX FOR HIGHLIGHTING INFORMATION - SAME LOOK AS Next Ride Date BOX */
+.boxleft {
+	border-width: 1px;
+	border-style: groove;
+	border-color: #FFCC33;
+	font-size: 1.0em;
+	color: #663300;
+	background-color: #FFFFCC;
+	text-align: left;
+	margin-left: 0%;
+	margin-right: 40%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	line-height: 1.4em;
+}
+
+/* PHOTO DESCRIPTION TEXT */
+.photo {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	font-size: 0.6em;
+	vertical-align: top;
+	margin-left: 0;
+	padding-left: 1%;
+}
+	
+/* BACK TO TOP - SMALLER TEXT */
+.top {
+	color: #CCCC99;
+	background-color: #FFFFFF;
+	font-family: "Comic Sans", sans-serif;
+	font-size: 0.8em;
+	padding-top: 0.2em;
+}
+
+/* SMALLER FONT SIZE FOR PREVIOUS WHAT'S NEW ITEMS */
+.smaller {font-size: 80%;}
+/* no longer used as of 3/8/2004 - replaced with .archive style below*/
+
+/* STYLE FOR TABLE CELLS IN PREVIOUS WHAT'S NEW */
+.archive {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 80%;
+	border-style: none;
+	padding: 2px;
+}
+/*Previous What's New page (new.htm) removed from publication 17/09/2005 */
+
+/* RIDE RESULTS TABLE STYLES*/
+/* Table Format */
+table.results {
+	border-style: solid;
+	border-width: thin;
+	width: 90%;
+}
+/* Table Header Row */
+th.results {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #000000;
+	background-color : silver;
+	text-align: left;
+	vertical-align: top;
+	padding-left: 0.5em;
+}
+
+/* Table Data Cells */
+td.results {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	background-color: transparent;
+	padding-left: 0.5em;
+}
+
+/* Best Conditioned label with blue background */
+.bc {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 100%;
+	font-weight:bold;
+	color: #000000;
+	background-color: #ccccff;
+	padding-left:0.5em;
+	padding-right:0.5em;">
+}
+/* Bruce Neal Trophy hilite box */
+.bn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:100%;
+	color:#000000;
+	background-color:#ccccff;
+	padding:0.5em;
+	margin-right: 2%;
+}
+/* END RIDE RESULTS STYLES */
+
+/* HONOUR ROLL STYLES */
+/* Table Format*/
+table.honour {
+	width: 100%;
+	font-family: Verdana, Arial, sans-serif;
+}
+/* Table Header Row */
+th.honour {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #000000;
+	background-color : silver;
+	text-align: left;
+	vertical-align: top;
+	padding : 0.2em 0.2em 0.2em 0.2em;
+}
+
+/* Table Data Cells */
+td.honour {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	background-color: transparent;
+	border-bottom: thin solid Silver;
+	padding: 0.2em;
+}
+/* Grey Box for Tied Finishers */
+.greybox {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	background-color: #efefef;
+	border-bottom: thin solid Silver;
+	border-left-padding: 0.2em;
+	border-left-style: dotted;
+	border-left-color: Gray;
+	border-left-width: medium;
+	border-right-style: dotted;
+	border-right-color: Gray;
+	border-right-width: medium;
+	padding-left: 0.5em;
+}
+/* END HONOUR ROLL STYLES */
+
+/* TABLE WITH HORIZONTAL GREY LINES ONLY  - BASED ON TABLE.HONOUR*/
+/* Set table width in document as needed. Do not set borders. */
+
+/* Table Header Row */
+th.hlines {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #000000;
+	background-color : silver;
+	text-align: left;
+	vertical-align: top;
+	padding : 0.2em 0.2em 0.2em 0.2em;
+	border-bottom : 1px solid #999999;
+	border-top : 1px solid #999999;
+}
+
+/* Table Data Cells */
+td.hlines {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	background-color: transparent;
+	border-bottom : 1px solid #999999;
+	padding: 0.2em;
+}
+/* END TABLE WITH HORIZONTAL LINES */
+
+/* RIDE PHOTOS MARGIN */
+img.ride2004 {
+	margin-left: 1%;
+}
+
+/* STYLE FOR ADDRESSES */
+address {
+	margin-left: 5%;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+	font-style: normal;
+	color: #000000;
+	background-color: transparent;
+	margin-top: 0.2em;
+}
+
+/* STYLE FOR GENERAL INDENT */
+.indent {
+	margin-left: 5%;
+}
+
+/* STYLE FOR Last Updated TEXT ON SUB-PAGES. SAME STYLE EMBEDDED ON index.htm */
+.lastupdate {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #999999;
+	background-color: transparent;
+	border-style: none;
+	padding: 2px;
+}
+
+/* USE FOR HIDING PAGE CONTENT */
+.hidden {
+	display: none;
+}
+
+/* ID italic style for byline - keep as spare */
+#byline {
+	font-size: 1.1em; font-family: "Times New Roman", Garamond, serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-style: italic;
+	text-align: left;
+	margin-top: 0m;
+	margin-bottom: .5em;
+	margin-left: 1%;
+	padding-top: 0em;
+	padding-bottom: .5em;
+}
+

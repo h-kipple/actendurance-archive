@@ -1,0 +1,214 @@
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 1% 5% 5% 2%;
+	vertical-align: top;
+	border: thin solid #0000CC;
+}
+
+p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	color: #000000;
+	margin-left: 1%;
+}
+
+/* BOX FOR INDIVIDUAL WHAT'S NEW ITEMS*/
+p.whatsnew {
+	background-color: #ffffcc;
+	color: #330033;
+	font-size: 1.1em;
+	border-width: 2px;
+	border-style: dashed; 
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+/* CONTAINER FOR MULITPLE RELATED WHAT'S NEW ITEMS */
+div.whatsnew {
+	background-color: #ffffcc;
+	color: #330033;
+	border-width: 2px;
+	border-style: dashed; 
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+/* LINKS FOR WHAT'S NEW BOX ONLY ON INDEX PAGE */
+/* blue 6600FF unvisited, gold hover, maroon visited, on cream background ffffcc */
+a.new {
+	text-decoration: underline;
+	color: #6600ff;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+a:hover.new {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #FFCC33;
+	font-weight: bold;
+}
+
+a:visited.new {
+	text-decoration: underline;
+	color: #660033;
+	background-color: transparent;
+}
+
+td.hr {
+	color: #FFCC33;
+	text-align: left;
+	margin-left: 1%;
+	margin-right: 2%;
+	background-color: #FFFFFF;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/* GREEN BRANDING COLOUR CHANGED TO BLUE 0000cc */
+h1 {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #0000CC;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 1%;
+}
+
+/* USE THIS ONLY FOR PAGE BRANDING  ROYAL BLUE - 0000cc */
+.title {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #0000CC;
+	background-color: transparent;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	padding: 5%;
+}
+a.footer:link {
+	text-decoration: none;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFCC;
+}
+
+a.footer:active {
+	text-decoration: none;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+a.footer:visited {
+	text-decoration: none;
+	font-size: 0.8em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #009966;
+	background-color: #FFFFCC;
+}
+
+p.button {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding: 0.2em;
+	color: #000000;
+	background-color: #FFFFCC;
+	border-style: outset;
+}
+
+div.center {
+	text-align: center;
+}
+
+table.homepage {
+	width: 100%;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+li {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+	color:	#000000;
+	background-color: #FFFFFF;
+	margin-left: 1%;
+}
+
+p.copyright {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+}
+
+/* CELL WITH ACTERA BANNER */
+td.banner {
+	vertical-align: middle;
+	padding-left: 5%;
+}
+
+/* LINKS IN LEFT NAV PANEL WITH WHITE BACKGROUND ON HOVER */
+a.nav {
+	text-decoration: none;
+	color: #006633;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+a:hover.nav {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+a:visited.nav {
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+}
+
+/* LINKS IN TEXT WITH UNDERLINE AND STANDARD COLOURS */
+a.text {
+	text-decoration: underline;
+	color: #6600cc;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+a:hover.text {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #ff3366;
+	font-weight: bold;
+}
+
+a:visited.text {
+	text-decoration: underline;
+	color: #660066;
+	background-color: transparent;
+}
+
+/* STYLE FOR JS PAGE UPDATE */
+.lastupdate {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #999999;
+	background-color: transparent;
+	border-style: none;
+	padding: 2px;
+}

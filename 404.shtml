@@ -1,0 +1,19 @@
+<div style="margin-left: 5%; padding=2%;"
+<h1><span style="font-family: Verdana, Arial, sans-serif;">ACT Endurance Riders Association</span></h1>
+
+<h2><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-variant: small-caps;">Page Not Found (404)</span></h2>
+
+<div style="font-family: Verdana, Arial, Helvetica;">
+
+<p>Sorry, the page you are looking for [<!--#echo var="REQUEST_URI" -->] is not available.</p>
+
+<p>Please <a href="http://www.actera.org.au/index.htm">go to the ACTERA home page<a> and try to find your page from there.</p>
+
+<p>Alternatively, <a href="mailto:webmanager@actera.org.au">email the ACTERA web manager</a> with details of what you are looking for.</p>
+
+</div>
+
+</div>
+<!-- 
+                                                                                                                                                                                                                             
+--> 

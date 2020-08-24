@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* Simple .css file for CSS3 week 1 assignment - Marg Millard */
+
+p {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.0em;
+  color: #000000;
+  background-color: transparent;
+  margin-top: 0.2em;
+  margin-left: 1%;
+}
+
+/* LEVEL 1 HEADING with LETTER SPACING, PALE YELLOW BGRND */
+h1 {
+   font-family: Tahoma, Verdana, sans-serif;
+   color: #0000CC;
+   background-color: #FFFFCC;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 0.1em;
+   margin-left: 1%;
+}
